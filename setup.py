@@ -41,9 +41,16 @@ long_description = open("README.md").read()
 setup(
         author="Patrick Hohenecker",
         author_email="mail@paho.at",
-        classifiers=["Programming Language :: Python :: 3"],
+        classifiers=[
+                "License :: OSI Approved :: MIT License",
+                "Programming Language :: Python :: 3"
+        ],
+        data_files=[
+                    (".", ["LICENSE", "README.md"])
+        ],
         description="A class decorator for invoking static constructors.",
         download_url="https://github.com/phohenecker/static-init/archive/2017.1.tar.gz",
+        license="MIT",
         long_description=long_description,
         name="staticinit",
         py_modules=["staticinit"],
