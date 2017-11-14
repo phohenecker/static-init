@@ -34,7 +34,7 @@ __version__ = "2017.1"
 __date__ = "Nov 13, 2017"
 __maintainer__ = "Patrick Hohenecker"
 __email__ = "mail@paho.at"
-__status__ = "Development"
+__status__ = "Production"
 
 
 class StaticInitTest(unittest.TestCase):

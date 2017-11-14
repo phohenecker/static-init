@@ -32,7 +32,7 @@ __version__ = "2017.1"
 __date__ = "Nov 13, 2017"
 __maintainer__ = "Patrick Hohenecker"
 __email__ = "mail@paho.at"
-__status__ = "Development"
+__status__ = "Production"
 
 
 # read the long description from the read me file
@@ -43,8 +43,10 @@ setup(
         author_email="mail@paho.at",
         classifiers=["Programming Language :: Python :: 3"],
         description="A class decorator for invoking static constructors.",
+        download_url="https://github.com/phohenecker/static-init/archive/2017.1.tar.gz",
         long_description=long_description,
         name="staticinit",
         py_modules=["staticinit"],
+        url="https://github.com/phohenecker/static-init",
         version="2017.1"
 )
