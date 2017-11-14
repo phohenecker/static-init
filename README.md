@@ -18,3 +18,11 @@ class SomeClass(object):
     def __static_init__(cls):
         # do some initialization stuff here...
 ```
+
+Installation
+------------
+
+This module can be installed from PyPI:
+```
+pip install staticinit
+```
