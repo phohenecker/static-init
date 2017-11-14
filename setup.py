@@ -49,7 +49,7 @@ setup(
                     (".", ["LICENSE", "README.md"])
         ],
         description="A class decorator for invoking static constructors.",
-        download_url="https://github.com/phohenecker/static-init/archive/2017.1.tar.gz",
+        download_url="https://github.com/phohenecker/static-init/archive/v2017.1.tar.gz",
         license="MIT",
         long_description=long_description,
         name="staticinit",
