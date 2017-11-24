@@ -55,7 +55,7 @@ def init(init_meth: str = "__static_init__") -> typing.Callable[[type], type]:
         
         # ensure that cls is a class
         if not inspect.isclass(cls):
-            raise TypeError("@static_init.init can only be used to decorate classes!")
+            raise TypeError("@staticinit.init can only be used to decorate classes!")
         
         # check whether the class has the classmethod that was specified as static constructor
         if init_meth not in cls.__dict__ or not isinstance(cls.__dict__[init_meth], classmethod):
